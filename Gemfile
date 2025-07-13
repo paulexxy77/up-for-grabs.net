@@ -2,13 +2,13 @@
 
 source 'https://rubygems.org'
 
-gem 'jekyll'
+gem 'jekyll', '>= 4.3.3'
 
 gem 'json_schemer'
 
 gem 'octokit'
 gem 'safe_yaml'
-gem 'graphql-client'
+gem 'graphql-client', '>= 0.19.0'
 
 gem 'up_for_grabs_tooling', :github => 'up-for-grabs/tooling', :branch => 'main'
 
@@ -18,4 +18,4 @@ if Gem.win_platform?
   gem 'wdm', '>= 0.1.0'
 end
 
-gem 'webrick'
+gem 'webrick', '>= 1.8.2'
