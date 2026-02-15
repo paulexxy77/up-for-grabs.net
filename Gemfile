@@ -6,7 +6,7 @@ gem 'jekyll'
 
 gem 'json_schemer'
 
-gem 'octokit'
+gem 'octokit', '>= 7.2.0'
 gem 'safe_yaml'
 gem 'graphql-client'
 
